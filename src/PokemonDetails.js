@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class GithubUser extends Component {
+class PokemonDetails extends Component {
   render() {
     return (
-      <div className="GithubUser">
-        Hi, {this.props.match.params.username}
+      <div className="PokemonUser">
+        Hi, {this.props.match.params.pokemon}
       </div>
     )
   }
 }
 
-export default GithubUser
+export default PokemonDetails
